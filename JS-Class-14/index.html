@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Datatypes, Variables</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            font-size: 100px;
+        }
+        body{
+            background-color: rgb(235, 235, 131);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Hello Javascript</h2>
+    <br>
+    <button onclick="window.print()">Print Page</button>
+
+    <script>
+
+
+
+        //Javascrip Console
+
+        console.log(10+10)
+        console.log(20/12)
+        console.log(30-10)
+        console.log(10*5)
+
+        //JS Datatype
+
+        //JS String / Charecter /char
+        // "we are learning JS"
+        // 'we are learging js'
+
+        console.log("we are learning Js");
+        console.log('20+30');
+
+        console.log("we are learning html & css");
+
+        //JS Number
+        1, 2, 3, 4, 5, 6
+
+        //Variables 
+        var box1 = "Apple" ;
+        var box2 = "Orange" ;
+
+        var sentense1 = "We are learning JS";
+        var sentetnse2 = " We are lerning Html and Css" ;
+
+        var num1 = 40;
+        var num2 = 50;
+
+        console.log(num1 + num2)
+        console.log(num1 * num2)
+
+        console.log(box1, box2)
+        console.log(box2)
+
+        console.log(sentense1 + sentetnse2)
+
+
+        //Roles of naming Variables:
+        // First we should define a variables with var.
+        // First letter should be smaller.
+        // camelCase / snake_case or underscore.
+        // Name should be meaningful.
+
+        //camelCase:
+        var numberOne=50;
+        var isRaning= 30;
+
+        console.log(numberOne + isRaning)
+
+        //snack_case:
+        var new_word = "html";
+        var old_word = "css" ;
+
+        console.log(new_word + " " + old_word)
+
+
+        //Typeof- Data Type:
+
+        console.log(typeof "var")
+
+
+        //Boolean- Datatypes
+
+        var isRaning = true;
+        var isCloudy = false;
+
+        console.log(typeof isCloudy);
+        console.log(typeof isRaning);
+
+
+        //Common mistakes / clause
+
+        var pen1 = 20;
+        var pen2 = "30";
+
+        console.log(typeof (pen1 + pen2)); //number + string = string
+
+        console.log(pen1 - pen2);
+        console.log(pen1 * pen2);
+        console.log(pen2 / pen1);
+
+
+        //JavaScript Oparations- Task
+
+        //Write a program where you will able to find th sum, division, subtraction, multiplication of two numbers
+
+        var numOne = 20;
+        var numTwo = 30;
+
+        var addition = numOne + numTwo;
+        var division = numOne / numTwo;
+        var subtraction = numOne - numTwo;
+        var multiplication = numOne * numTwo;
+
+        console.log("Addition:", addition );
+        console.log("Division:", division);
+
+
+
+    
+    </script>
+</body>
+</html>
