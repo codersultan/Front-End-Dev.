@@ -57,9 +57,32 @@ console.log(testNum + " is a Even Number.")
 
 // 5. Solve the problem with Javascript  to check whether a character is in the alphabet or not.
 
-// let varType = "kalimi";
+// solution:
 
-// console.log(os);
+// function isAlphabet(char) {
+//     return (char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z')
+
+// }
+
+ // console.log(isAlphabet('$'));
+
+
+//solution-2:
+
+function isAlphabet(char) {
+    if((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z')) {
+        console.log(char + ' is an alphabet');
+    } else {
+        console.log(`${char} is not an alphabet`);
+    }
+}
+
+// let alphabet = '#';
+// isAlphabet (alphabet);
+
+isAlphabet('w');
+
+
 
 
 // 6. Solve the problem with Javascript  to check whether the temperature is hot, cold or normal. (30 <=  is hot, 25 >= is cold , anyother value is normal)
